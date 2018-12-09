@@ -1,0 +1,86 @@
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+body {
+    background-image: url("images/background.png");
+    background-color: white;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, html {
+    height: 100%;
+  	margin: 0;
+}
+
+.social_media {
+    width: 42px;
+    height: auto;
+    border-radius: 22px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    margin: 11px 11px 11px 11px;
+
+    -webkit-transition: box-shadow 0.5s, width 0.3s, height 0.3s, border-radius 0.3s, margin 0.3s; /* Safari */
+    transition: box-shadow 0.5s, width 0.3s, height 0.3s, border-radius 0.3s, margin 0.3s;
+}
+.social_media:hover {
+    width: 64px;
+    height: auto;
+    border-radius: 32px;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 1);
+    margin: 0px 0px 0px 0px;
+}
+
+footer ul {
+    line-height: 20px;
+    vertical-align: middle;
+    margin-left: -3%;
+}
+
+footer ul li {
+    display: inline-block;
+    float: inside;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-right: 25%;
+    margin-bottom: 20px;
+
+    position:relative;
+    height:60px;
+    bottom:0;
+    width: 100%;
+    line-height: 50%;
+
+    color: #ffffff;
+}
+
+#accordion {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 10%;
+}
+
+#accordion h3 {
+	font-size: 135%;
+}
+
+#accordion div p {
+	font-size: 120%;
+}

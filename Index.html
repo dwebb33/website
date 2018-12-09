@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dawson Webb</title>
+    <!--External Stylesheet -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="icon" href="https://www.gfxmag.com/wp-content/uploads/2017/01/penguin-emoji-vector-icon.png">
+<!--    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
+<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--    <script src="plugins/jquery.fittext.js"></script>-->
+	<!--Cycle Image Plugin-->
+	<script type="text/javascript" src="plugins/jquery.cycle.all.js"></script>
+	<!--My Javascript-->
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <iframe class="menu" src="menu.html" height="40" width="100%" style="border:none;"></iframe>
+
+    <div class="hero_image">
+        <div class="hero_text">
+            <p id="header_title">I am <span id="myname"><strong>Dawson Webb</strong></span></p>
+            <p id="header_paragraph">And I'm a Student at UNC Charlotte</p>
+        </div>
+    </div>
+	
+    <div class="main">
+
+        <section class="firstcol" id="paragraph">
+            <div class="rounded_text_box">
+                <p>
+                    I am a friendly person. I like working with people and sharing what I know and learning what others have to say. With teamwork, you have to be able to cooperate with people and work everyone strengths and I believe I can do just that.
+                    I think a very powerful quality someone in the workplace can have is the ability to listen to others. I enjoy listening to what all walks of life have to say and keep my mind open to others. My passion is programming and I can not wait to further my career.
+                </p>
+            </div>
+        </section>
+
+		<section class="secondcol">
+			<div class="slideshow" style="position: relative;">
+				<img src="images/dawson.png" alt="Dawson's Photo" id="photo" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 6; opacity: 1; width: 400px; height: 400px;">
+				<img src="images/dawson2.png" alt="Dawson's Photo" id="photo" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 400px; height: 400px;">
+				<img src="images/dawson3.png" alt="Dawson's Photo" id="photo" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 400px; height: 400px;">
+			</div>
+		</section>
+
+        <div class="clear"></div>
+    </div>
+
+    <footer>
+
+        <ul>
+            <li>
+                <a href="https://github.com/dwebb33"><img src="images/github.png" alt="Github" class="social_media"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Dawson__Webb"><img src="images/twitter.png" alt="Twitter" class="social_media"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/dawson_webb/"><img src="images/instagram.png" alt="Instagram" class="social_media"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/dawson-webb-1303b7153"><img src="images/linkedin.png" alt="LinkedIn" class="social_media"></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UC1Ovd2Jz-8A7wrGdYbDOKyA"><img src="images/youtube.png" alt="YouTube" class="social_media"></a>
+            </li>
+            <li>
+                <a href="https://www.snapchat.com/add/mrgobstopper"><img src="images/snapchat.png" alt="Snapchat" class="social_media"></a>
+            </li>
+            <li>
+                <a href="https://discord.gg/jxDf4SY"><img src="images/discord.png" alt="Discord" class="social_media"></a>
+            </li>
+        </ul>
+        <p class="space_bellow">Copyright &copy; 2018 Dawson Webb</p>
+		
+		<br>
+
+        <div class="scorebug" style="width:310px; margin:0 auto;">
+            <img src="images/scorebug/time_1.png" alt="time" style="height:46px; margin-top: 9px; margin-right: -1px;" class="time" id="score-period">
+            <table id="teams">
+                <tr>
+                    <td><img src="images/scorebug/team17.png" alt="team1" id="away" style="height:32px;" class="team"></td>
+                </tr>
+                <tr>
+                    <td><img src="images/scorebug/team12.png" alt="team2" id="home" style="height:32px;" class="team"></td>
+                </tr>
+            </table>
+            <p id="time_p" class="time-text">20:00</p>
+            <p id="home-score" class="score">0</p>
+            <p id="away-score" class="score">0</p>
+            <p id="home-shots" class="shots">0</p>
+            <p id="away-shots" class="shots">0</p>
+        </div>
+
+
+        <div class="crop">
+            <img id="home_image" src="https://www-league.nhlstatic.com/images/logos/league-light/133.svg" width="3.5%" align="middle"> <p id="home_name"><strong></strong></p> <p id="home_score"></p> <p id="game_mark">-</p> <p id="away_score"></p> <p id="away_name"><strong></strong></p> <img id="away_image" src="https://www-league.nhlstatic.com/images/logos/league-light/133.svg" width="3.5%" align="middle"><br><br>
+            <div class="time">
+                <p id="time">.</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
